@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+:root{
+    --primary-color: rgb(189, 50, 0);
+}
+
+header{
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    /* gap: 3px; */
+    align-items: center;
+}
+.logo img{
+    height: 40px;
+}
+.logo p{
+    font-weight: 900;
+    font-size: 1.2em;
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+}
+nav ul li{
+    font-weight: 700;
+}
+.hero{
+    height: 90vh;
+}
+.btn{
+    height: 50px;
+    width: 150px;
+    background: rgb(189, 50, 0);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+.main{
+height: 70vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 100px;
+}
+span{
+    color: var(--primary-color);
+}
+.main img{
+    height: 520px;
+}
+.text h3{
+    font-size: 2.8em;
+    margin-bottom: 15px;
+    line-height: 9x;
+}
+.text p{
+    font-size: 19px;
+  line-height: 25px;
+  margin-bottom: 50px;
+}
+.service{
+    height: 60vh;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.text1{
+    text-align: center;
+}
+.text1 h4{
+    font-size: 1.9em;
+    margin-bottom: 10px;
+}
+.text1 p{
+    font-size: 0.8em;
+}
+.box{
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+}
+.container{
+    height: 200px;
+    width: 260px;
+    border-radius: 10px;
+    box-shadow: 5px 6px 3px rgba(53, 53, 53, 0.575);
+    padding: 0 0 20px 0;
+}
+.logo1{
+    height: 60px;
+    width: 110px;
+    border-radius: 10px 0 30px 0;
+    background: rgb(235, 235, 19);
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo1 img{
+    height: 40px;
+}
+.logo2{
+    height: 60px;
+    width: 110px;
+    border-radius: 10px 0 30px 0;
+    background:rgb(19, 235, 37);
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo2 img{
+    height: 40px;
+}
+.logo3{
+    height: 60px;
+    width: 120px;
+    border-radius: 10px 0 30px 0;
+    background:rgb(117, 42, 238);
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo3 img{
+    height: 40px;
+}
+.logo4{
+    height: 60px;
+    width: 120px;
+    border-radius: 10px 0 30px 0;
+    background: var(--primary-color);
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo4 img{
+    height: 40px;
+}
+.container h6{
+    padding: 0 30px;
+}
+.container p{
+    padding: 0 30px;
+}
+.soln{
+    height: 80vh;
+    background: rgb(255, 161, 127);
+}
+.soln1{
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+
+}
+.images img{
+    height: 400px;
+}
+.heading h3{
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+.heading p{
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+.solu{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 15px;
+}
+.solu img{
+    height: 50px;
+}
+.solu_text h4{
+    font-size: 1.4em;
+}
+.solu_text p{
+    font-size: 0.8em;
+}
+.btn1{
+    height: 50px;
+    width: 150px;
+    background:transparent;
+    border: 2px solid var(--primary-color);
+    border-radius: 6px;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 1.1em;
+    margin-left: 20px;
+}
+.about{
+    height: 80vh;
+}
+.agent{
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 90px;
+}
+.agency h3{
+    font-size: 2.2em;
+    margin-bottom: 30px;
+}
+.agency p{
+    font-size: 1em;
+    margin-bottom: 30px;
+    width: 500px;
+}
+
+.agency_img img{
+    height: 500px;
+}
+.text{
+    height: 50vh;
+}
+.box1{
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cont_test{
+    display: flex;
+    gap: 30px;
+}
+.container_test{
+    height: 170px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 6px 5px 5px 5px  rgba(65, 65, 65, 0.678);
+}
+.user{
+    display: flex;
+    gap: 20px;
+    padding: 5px 10px;
+}
+.user img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.user1 h6{
+    font-size: 1.1em;
+}
+.user1 p{
+    font-size: 0.8em;
+}
+.container_test p{
+    padding: 0 6px 10px 10px;
+    font-size: 0.8em;
+}
+footer{
+    height:60vh ;
+}
